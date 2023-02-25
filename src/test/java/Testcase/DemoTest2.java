@@ -94,5 +94,6 @@ public class DemoTest2 {
         tt.Aftermethod();
         //to write or update test information to reporter
         extent.flush();
+        System.out.println(System.getProperty("user.dir")+"\\testReport.html");
     }
 }

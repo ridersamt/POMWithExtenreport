@@ -81,5 +81,6 @@ public class Beforeclassinvoke {
         System.out.println("After class");
         endTest();
         closedriver();
+        System.out.println(System.getProperty("user.dir")+"\\testReport.html");
     }
 }

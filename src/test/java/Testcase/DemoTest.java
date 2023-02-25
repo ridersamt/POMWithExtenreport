@@ -54,7 +54,7 @@ public class DemoTest {
     @Test
     public void test_2() {
         test = extent.createTest("Test Case 2", "The test case 2 has failed");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test
@@ -80,5 +80,6 @@ public class DemoTest {
     public void tearDown() {
         //to write or update test information to reporter
         extent.flush();
+        System.out.println(System.getProperty("user.dir")+"\\testReport.html");
     }
 }

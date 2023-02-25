@@ -51,5 +51,6 @@ public class TestTitle {
     {
         bi.endTest();
         bi.closedriver();
+        System.out.println(System.getProperty("user.dir")+"\\testReport.html");
     }
 }
